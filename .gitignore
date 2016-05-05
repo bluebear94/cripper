@@ -1,0 +1,6 @@
+*.dat
+test*/
+*.stackdump
+*.o
+*.exe
+cripper
