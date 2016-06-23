@@ -223,7 +223,7 @@ static void mkdirP(const wchar_t *dir) {
       *p = L'/';
     }
   }
-  mkdir(tmp, S_IRWXU);
+  _wmkdir(tmp);
 }
 void wmkdir(wchar_t* dname) {
   mkdirP(dname);
